@@ -15,7 +15,7 @@ import team.techtigers.core.paths.Waypoint;
  * Test op mode for pathfinder
  */
 @TeleOp
-public class PathfinderTestOpMode extends BaseOpMode {
+public class    PathfinderTestOpMode extends BaseOpMode {
     @Override
     public void initialize() {
         // Initialize Pathfinder. The second parameter is the divisions per

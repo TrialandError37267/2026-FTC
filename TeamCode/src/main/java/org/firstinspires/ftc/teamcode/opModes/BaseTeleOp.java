@@ -12,7 +12,7 @@ import org.firstinspires.ftc.teamcode.subsystems.DriveSubsystem;
 import org.firstinspires.ftc.teamcode.subsystems.MechanismSubsystem;
 
 // Click any red class names below and press Alt+Enter (Mac: Option+Return) to auto-import
-@TeleOp(name = "TTLib: Omni TeleOp", group = "TTLib")
+@TeleOp(name = "Base TeleOp", group = "TTLib")
 public class BaseTeleOp extends CommandOpMode {
 
     private final ElapsedTime runtime = new ElapsedTime();

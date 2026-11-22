@@ -22,6 +22,7 @@ public class For_Event extends CommandOpMode {
     private boolean slowMode=false;
     private boolean lastBumperState=false;
 
+
     @Override
     public void initialize() {
         drive = new DriveSubsystem(hardwareMap);
@@ -40,7 +41,7 @@ public class For_Event extends CommandOpMode {
                     lastBumperState = currentBumperState;
 
                     // Set speed multiplier based on toggle state (40% speed when ON)
-                    double speedMultiplier = slowMode ? 0.4 : 1.0;
+                    double speedMultiplier = slowMode ? 0.4 : 0.7;
 
                     drive.drive(
                             -gamepad1.left_stick_y * speedMultiplier,
